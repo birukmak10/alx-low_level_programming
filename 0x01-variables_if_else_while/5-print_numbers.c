@@ -8,7 +8,7 @@ int main(void)
 {
   int gr;
   for (gr = 0; gr < 10; gr++)
-    print("%d",gr);
-  print("\n");
+    printf("%d",gr);
+  printf("\n");
   return(0);
 }
