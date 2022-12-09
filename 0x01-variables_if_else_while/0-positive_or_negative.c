@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * main
+ * main: vlue check
  * description: get a random number and print number
  * return 0
  */
