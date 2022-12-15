@@ -16,8 +16,7 @@ _putchar(' ');
 }
 _putchar(92);
 if (i < (x - 1))
- {
+{
 _putchar('\n');
 }
-}   
-}
+}}
