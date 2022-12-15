@@ -2,7 +2,8 @@
 
 /**
  *  function that multiplies two integers
- * @x && y: Integers
+ * @x: int
+ * @y: int
  * Return: multiples
 */
 
