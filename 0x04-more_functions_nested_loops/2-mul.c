@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *  function that multiplies two integers
+ *  mul - function tha multiplies 2 numbers
  * @x: int
  * @y: int
  * Return: multiples
