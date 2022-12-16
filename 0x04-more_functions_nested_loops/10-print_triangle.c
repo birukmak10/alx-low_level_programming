@@ -3,9 +3,6 @@
 /**
  * print_triangle - function that prints a triangle, followed by a new line
  * @x : nubers of lines
- * @i:input
- * @j:input
- * @k:input
  * Return: no return
  */
 void print_triangle(int x)
