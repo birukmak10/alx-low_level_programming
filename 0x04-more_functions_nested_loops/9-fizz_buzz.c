@@ -1,26 +1,29 @@
+ #include <stdlib.h>
  #include <stdio.h>
  /**
- * main -function that prints a square, followed by a new line
+ * main - Prints the number from 1 - 100
  * Return: Always 0
  */
 int main(void)
 {
     int i;
-    i = 1;
-    printf("%d", i);
-    for (i = 2; i <= 100; i++)
+    for (i = 1; i <= 100; i++)
     {
-        if ((i % 3 == 0) && (i % 5 == 0))
+        if(i=100)
         {
-            printf(" FizzBuzz");
+            printf("%s", "Buzz")
+        }
+        else if ((i % 3 == 0) && (i % 5 == 0))
+        {
+            printf("%s", "FizzBuzz");
         }
         else if (i % 3 == 0)
         {
-            printf(" Fizz");
+            printf("%s", "Fizz");
         }
         else if (i % 5 ==0)
         {
-            printf(" Buzz");
+            printf("%s", "Buzz");
         }
         else
         {
