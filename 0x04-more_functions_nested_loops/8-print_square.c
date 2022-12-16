@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * main -function that prints a square, followed by a new line
+ * print_square -function that prints a square, followed by a new line
+ * @x:input integer
  * Return: Always 0
  */
 void print_square(int x)
@@ -23,4 +24,3 @@ _putchar('\n');
 }
 }
 }
- 
