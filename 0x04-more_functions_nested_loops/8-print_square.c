@@ -1,33 +1,26 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main -function that prints a square, followed by a new line
  * Return: Always 0
  */
-int main(void)
+void print_square(int x)
 {
-    int i;
-    i = 1;
-    printf("%d", i);
-    for (i = 2; i <= 100; i++)
-    {
-        if ((i % 3 == 0) && (i % 5 == 0))
-        {
-            printf(" FizzBuzz");
-        }
-        else if (i % 3 == 0)
-        {
-            printf(" Fizz");
-        }
-        else if (i % 5 ==0)
-        {
-            printf(" Buzz");
-        }
-        else
-        {
-            printf(" %d", i);
-        }
-    }
-    printf('\n');
-    return (0);
+int a, b;
+if (x <= 0)
+{
+_putchar('\n');
+}
+else
+{
+for (a = 1; a <= x; a++)
+{
+_putchar('#');
+for (b = 2; b <= x; b++)
+{
+_putchar('#');
+}
+_putchar('\n');
+}
+}
 }
  
