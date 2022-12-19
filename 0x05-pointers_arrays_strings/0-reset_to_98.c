@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * reset_to_98 - a pointer 
+ * reset_to_98 - a pointer
  * @x: input
  */
 
