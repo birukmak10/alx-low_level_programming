@@ -5,12 +5,12 @@
  * @x: input string
  */
 
-void _puts(char *s)
+void _puts(char *c)
 {
 int i;
-for (i = 0; s[i] != '\0'; i++)
+for (i = 0; c[i] != '\0'; i++)
 {
-_putchar(s[i]);
+_putchar(c[i]);
 }
 _putchar('\n');
 }
