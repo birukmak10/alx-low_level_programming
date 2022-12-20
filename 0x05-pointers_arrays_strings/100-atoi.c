@@ -14,7 +14,7 @@ int min = 1;
 unsigned int n = 0;
 while (x[i])
 {
-if(x[i] == 45)
+if (x[i] == 45)
 {
 min *= -1;
 }
