@@ -2,7 +2,7 @@
 
 /**
  * _puts - function that prints a string,in reverse,followed by a new line
- * @x: input string
+ * @str: input string
  */
 
 void _puts(char *str)
