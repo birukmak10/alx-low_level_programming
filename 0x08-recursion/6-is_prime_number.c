@@ -1,3 +1,4 @@
+
 #include "main.h"
 
 int is_divisible(int num, int div);
