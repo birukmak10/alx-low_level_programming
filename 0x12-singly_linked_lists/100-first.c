@@ -1,4 +1,4 @@
-#include "lists.h"
+#include "main.h"
 #include <stdio.h>
 
 void print_before_main(void) __attribute__ ((constructor));
